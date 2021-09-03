@@ -1,0 +1,14 @@
+
+<h1>Página Sobre Nós</h1>
+
+<p>Chegamos ao IndexController e disparamos a action Sobre Nós</p>
+
+<?php 
+
+foreach ($this->view->dados as $indice => $valor) {
+  echo "<h1>". $valor['titulo'] ."</h1>";
+  echo "<p>". $valor['descricao'] ."</p>";
+
+}
+
+?>

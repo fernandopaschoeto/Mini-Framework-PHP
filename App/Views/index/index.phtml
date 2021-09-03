@@ -1,0 +1,17 @@
+
+
+<h1>Página Index</h1>
+
+<p class="m-5">Chegamos ao IndexController e disparamos a action Index</p>
+
+<?php 
+
+
+foreach ($this->view->dados as $indice => $valor) {
+    echo "ID: ". $valor['id'] ."<br>";
+    echo "Descrição: ". $valor['descricao'] ."<br>";
+    echo "Preço: ". $valor['preco'] ."<br><hr><br>";
+  
+}
+
+?>
